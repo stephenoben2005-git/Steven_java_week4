@@ -1,6 +1,6 @@
 public class javaoperators {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int num1 = 2;
         int num2 = 7;
         //Arithmetic
@@ -29,6 +29,9 @@ public class javaoperators {
 
         //Logical
         //AND => &&, OR => ||, NOT => !
+        System.out.println(num1 > 5 && num2 < 10);
+        System.out.println(num1 > 20 || num2 > 5);
+        System.out.println(!(num1 == num2));
 
 
     }
