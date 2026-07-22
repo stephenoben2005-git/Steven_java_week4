@@ -1,5 +1,5 @@
 public class javaString {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String name = "John Doe";
         System.out.println(name);
         System.out.println(name.length());
